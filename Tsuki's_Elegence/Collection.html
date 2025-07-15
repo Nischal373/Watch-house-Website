@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watch Collections - Tsuki's Elegance Watches</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style></style>
+    <link rel="stylesheet" href="css/Collection.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <i class="fas fa-clock"></i>
+          <span>Tsuki's</span> Elegance
+        </a>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Collection.html" class="active">Collections</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="Faq.html">FAQ</a></li>
+            <li><a href="ContactUs.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-icons">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="#"><i class="fas fa-user"></i></a>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Watch Collections</h1>
+        <p>
+          Discover our curated selection of exceptional timepieces from the
+          world's most prestigious watch brands.
+        </p>
+      </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+      <div class="container">
+        <div class="filter-container">
+          <div class="filter-groups">
+            <div class="filter-group">
+              <label for="price-filter">Price Range:</label>
+              <select id="price-filter">
+                <option value="all">All Prices</option>
+                <option value="under-1000">Under $1,000</option>
+                <option value="1000-5000">$1,000 - $5,000</option>
+                <option value="5000-10000">$5,000 - $10,000</option>
+                <option value="over-10000">Over $10,000</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="style-filter">Style:</label>
+              <select id="style-filter">
+                <option value="all">All Styles</option>
+                <option value="dress">Dress</option>
+                <option value="casual">Casual</option>
+                <option value="sport">Sport</option>
+                <option value="diving">Diving</option>
+                <option value="aviator">Aviator</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="gender-filter">Gender:</label>
+              <select id="gender-filter">
+                <option value="all">All</option>
+                <option value="men">Men</option>
+                <option value="women">Women</option>
+                <option value="unisex">Unisex</option>
+              </select>
+            </div>
+          </div>
+          <div class="search-box">
+            <input type="text" placeholder="Search watches..." />
+            <button><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Categories -->
+    <section class="brand-categories">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Browse by Brand</h2>
+          <p>
+            Explore collections from the world's most prestigious watch
+            manufacturers.
+          </p>
+        </div>
+        <div class="brand-list">
+          <a href="#all-brands" class="brand-button active">All Brands</a>
+          <a href="#rolex" class="brand-button">Rolex</a>
+          <a href="#patek-philippe" class="brand-button">Patek Philippe</a>
+          <a href="#titan" class="brand-button">Titan</a>
+          <a href="#omega" class="brand-button">Omega</a>
+          <a href="#tag-heuer" class="brand-button">TAG Heuer</a>
+          <a href="#breitling" class="brand-button">Breitling</a>
+          <a href="#cartier" class="brand-button">Cartier</a>
+          <a href="#seiko" class="brand-button">Seiko</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rolex Section -->
+    <section class="brand-section" id="rolex">
+      <div class="container">
+        <div class="brand-header">
+          <div class="brand-logo">
+            <img src="Images/rolex logo.jpg" alt="Rolex Logo" />
+          </div>
+          <div class="brand-info">
+            <h2>Rolex</h2>
+            <p>
+              Synonymous with prestige and luxury, Rolex creates timepieces of
+              exceptional quality and precision.
+            </p>
+          </div>
+        </div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-img">
+              <img
+                src="Images/Rolex Submariner - The divers’ watch.jpg"
+                alt="Rolex Submariner"
+              />
+              <span class="product-badge">Bestseller</span>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Rolex Submariner</h3>
+              <p class="product-price">$12,999</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(124)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="Images/Datejust 41.jpg" alt="Rolex Datejust" />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Rolex Datejust</h3>
+              <p class="product-price">$9,499</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(98)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img
+                src="Images/Rolex GMT-Master II watch_ 18 ct white gold - m126719blro-0002.jpg"
+                alt="Rolex GMT-Master II"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Rolex GMT-Master II</h3>
+              <p class="product-price">$14,799</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(86)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img
+                src="Images/Rolex Day-Date 40 watch_ platinum - m228236-0006.jpg"
+                alt="Rolex Day-Date"
+              />
+              <span class="product-badge">Limited</span>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Rolex Day-Date</h3>
+              <p class="product-price">$33,950</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(42)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Patek Philippe Section -->
+    <section class="brand-section" id="patek-philippe">
+      <div class="container">
+        <div class="brand-header">
+          <div class="brand-logo">
+            <img src="Images/jpg.jpg" alt="Patek Philippe Logo" />
+          </div>
+          <div class="brand-info">
+            <h2>Patek Philippe</h2>
+            <p>
+              A heritage of excellence that embodies the finest traditions of
+              Swiss watchmaking with unparalleled craftsmanship.
+            </p>
+          </div>
+        </div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-img">
+              <img
+                src="Images/Patek Philippe, Calatrava, Ref_ 3919J-001.jpg"
+                alt="Patek Philippe Calatrava"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Patek Philippe Calatrava</h3>
+              <p class="product-price">$22,500</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(64)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img
+                src="Images/Patek Philippe Nautilus 18K White Gold Man_s Watch for $178,279 for sale from a Trusted Seller on Chrono24.jpg "
+                alt="Patek Philippe Nautilus"
+              />
+              <span class="product-badge">Exclusive</span>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Patek Philippe Nautilus</h3>
+              <p class="product-price">$69,850</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(52)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="Images/L6XxwCSf.jpg" alt="Patek Philippe Aquanaut" />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Patek Philippe Aquanaut</h3>
+              <p class="product-price">$41,750</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(37)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img
+                src="Images/Patek Philippe _ Grand Complications Sky Moon Tourbillon Watch 6002R-001.jpg"
+                alt="Patek Philippe Grand Complications"
+              />
+              <span class="product-badge">Luxury</span>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Patek Philippe Grand Complications</h3>
+              <p class="product-price">$189,900</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(18)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Titan Section -->
+    <section class="brand-section" id="titan">
+      <div class="container">
+        <div class="brand-header">
+          <div class="brand-logo">
+            <img
+              src="Images/Titan Logo (Watches _ 01) - PNG Logo Vector Brand Downloads (SVG, EPS).jpg"
+              alt="Titan Logo"
+            />
+          </div>
+          <div class="brand-info">
+            <h2>Titan</h2>
+            <p>
+              Combining innovative design with exceptional quality to create
+              stylish timepieces that are accessible to all.
+            </p>
+          </div>
+        </div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-img">
+              <img
+                src="Images/Titan Edge Baseline Analog Black Dial Men_s Watch-NP1843NL01_NP1843NL01.jpg"
+                alt="Titan Edge"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Titan Edge</h3>
+              <p class="product-price">$299</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(215)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img
+                src="Images/Titan Raga Women_s Allure_ Brown Dial with Designer Metal Strap Analog Watch.jpg"
+                alt="Titan Raga"
+              />
+              <span class="product-badge">Popular</span>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Titan Raga</h3>
+              <p class="product-price">$349</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(178)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img
+                src="Images/Titan Octane-Aerobatics Collection Analog Black Dial Men_s Watch-1859NL01.jpg"
+                alt="Titan Octane"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Titan Octane</h3>
+              <p class="product-price">$249</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(203)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="Images/nebula.jpg" alt="Titan Nebula" />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Titan Nebula</h3>
+              <p class="product-price">$499</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(167)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Omega Section -->
+    <section class="brand-section" id="omega">
+      <div class="container">
+        <div class="brand-header">
+          <div class="brand-logo">
+            <img src="Images/Omegalogo.jpg" alt="Omega Logo" />
+          </div>
+          <div class="brand-info">
+            <h2>Omega</h2>
+            <p>
+              A pioneer in watchmaking with a legacy of precision, innovation
+              and adventurous spirit.
+            </p>
+          </div>
+        </div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-img">
+              <img
+                src="Images/OMEGA Seamaster Diver 300M Co-Axial Master Chronometer Blue Dial Stainless Steel Watch 42mm - O21030422003001.jpg "
+                alt="Omega Seamaster"
+              />
+              <span class="product-badge">Bestseller</span>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Omega Seamaster</h3>
+              <p class="product-price">$5,199</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(156)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img
+                src="Images/Speedmaster Moonwatch Professional 42 mm, acciaio su acciaio - 310_30.42.50.04.jpg"
+                alt="Omega Speedmaster"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Omega Speedmaster</h3>
+              <p class="product-price">$6,350</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(129)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="Images/Eq5V9_hp.jpg" alt="Omega Constellation" />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Omega Constellation</h3>
+              <p class="product-price">$4,795</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(112)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="Images/424_10.40.20.03.jpg" alt="Omega De Ville" />
+              <span class="product-badge">Classic</span>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Omega De Ville</h3>
+              <p class="product-price">$3,950</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(98)</span>
+              </div>
+              <div class="product-actions">
+                <a href="#" class="btn">View Details</a>
+                <button class="wishlist-button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <button class="pagination-button active">1</button>
+      <button class="pagination-button">2</button>
+      <button class="pagination-button">3</button>
+      <button class="pagination-button">4</button>
+      <button class="pagination-button">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Tsuki's Elegance</h3>
+            <p>
+              Crafting exceptional timepieces that combine tradition,
+              innovation, and timeless elegance.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-pinterest"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Shop</h3>
+            <ul>
+              <li><a href="#">All Watches</a></li>
+              <li><a href="#">Men's Collection</a></li>
+              <li><a href="#">Women's Collection</a></li>
+              <li><a href="#">Limited Editions</a></li>
+              <li><a href="#">Accessories</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Support</h3>
+            <ul>
+              <li><a href="ContactUs.html">Contact Us</a></li>
+              <li><a href="Faq.html">FAQs</a></li>
+              <li><a href="#">Shipping & Returns</a></li>
+              <li><a href="#">Warranty</a></li>
+              <li><a href="#">Care Guide</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="Aboutus.html">About Us</a></li>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Craftsmanship</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Tsuki's Elegance. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
